@@ -1,0 +1,66 @@
+===2019-09-01 15:27:08.144 INFO  com.hui.zq.ZqApplication Line:50  - Starting ZqApplication on DESKTOP-6QKF18L with PID 5168 (D:\zq\target\classes started by WN027 in D:\zq)
+===2019-09-01 15:27:08.147 INFO  com.hui.zq.ZqApplication Line:647 - No active profile set, falling back to default profiles: default
+===2019-09-01 15:27:08.856 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+===2019-09-01 15:27:08.872 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2019-09-01 15:27:08.873 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+===2019-09-01 15:27:08.941 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2019-09-01 15:27:08.942 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 762 ms
+===2019-09-01 15:27:09.098 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+===2019-09-01 15:27:09.180 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+===2019-09-01 15:27:09.181 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+===2019-09-01 15:27:09.184 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+===2019-09-01 15:27:09.195 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+===2019-09-01 15:27:09.199 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+===2019-09-01 15:28:36.915 INFO  com.hui.zq.ZqApplication Line:50  - Starting ZqApplication on DESKTOP-6QKF18L with PID 8584 (D:\zq\target\classes started by WN027 in D:\zq)
+===2019-09-01 15:28:36.918 INFO  com.hui.zq.ZqApplication Line:647 - No active profile set, falling back to default profiles: default
+===2019-09-01 15:28:37.644 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+===2019-09-01 15:28:37.659 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2019-09-01 15:28:37.660 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.22]
+===2019-09-01 15:28:37.726 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2019-09-01 15:28:37.726 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 776 ms
+===2019-09-01 15:28:37.878 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+===2019-09-01 15:28:37.961 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+===2019-09-01 15:28:37.962 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+===2019-09-01 15:28:37.964 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+===2019-09-01 15:28:37.976 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+===2019-09-01 15:28:37.979 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
